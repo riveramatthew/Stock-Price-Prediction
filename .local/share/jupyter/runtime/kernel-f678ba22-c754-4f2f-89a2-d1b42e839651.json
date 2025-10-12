@@ -1,0 +1,13 @@
+{
+  "shell_port": 60961,
+  "iopub_port": 35137,
+  "stdin_port": 49969,
+  "control_port": 51625,
+  "hb_port": 52743,
+  "ip": "127.0.0.1",
+  "key": "a8aa057b-9153760e6016c30e29e8b6be",
+  "transport": "tcp",
+  "signature_scheme": "hmac-sha256",
+  "kernel_name": "python3",
+  "jupyter_session": "/home/sagemaker-user/nd009t-capstone-starter/starter/sagemaker.ipynb"
+}
