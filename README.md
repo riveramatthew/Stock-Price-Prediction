@@ -228,8 +228,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 
 **Your Name**
 - GitHub: [@riveramatthew](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Blog: [Your Blog](https://yourblog.com)
+- LinkedIn: [[Your LinkedIn]](https://www.linkedin.com/in/rivera-matthew/)(https://linkedin.com/in/yourprofile)
 
 ## 🙏 Acknowledgments
 
