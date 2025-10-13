@@ -75,47 +75,6 @@ print(f"RMSE: {metrics['RMSE']:.2f}")
 print(f"MAPE: {metrics['MAPE']:.2f}%")
 ```
 
-## 📁 Project Structure
-
-```
-stock-price-predictor/
-│
-├── data/
-│   ├── raw/                    # Raw downloaded stock data
-│   ├── processed/              # Preprocessed data with features
-│   └── README.md              # Data documentation
-│
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_feature_engineering.ipynb
-│   ├── 03_model_comparison.ipynb
-│   ├── 04_final_evaluation.ipynb
-│   └── 05_predictions.ipynb
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_collector.py      # Data collection and preprocessing
-│   ├── stock_predictor.py     # ML model implementations
-│   ├── feature_engineering.py # Technical indicators
-│   ├── evaluation.py          # Performance metrics
-│   └── visualization.py       # Plotting utilities
-│
-├── models/
-│   └── trained_models/        # Saved model files
-│
-├── reports/
-│   ├── figures/               # Generated plots
-│   └── performance_summary.csv
-│
-├── tests/
-│   ├── test_data_collector.py
-│   └── test_predictor.py
-│
-├── requirements.txt
-├── README.md
-└── LICENSE
-```
-
 ## 🧪 Methodology
 
 ### 1. Data Collection
@@ -268,7 +227,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@riveramatthew](https://github.com/yourusername)
 - LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
 - Blog: [Your Blog](https://yourblog.com)
 
