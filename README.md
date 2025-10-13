@@ -29,7 +29,7 @@ This project implements an end-to-end stock price prediction system that:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/stock-price-predictor.git
+git clone https://github.com/riveramatthew/stock-price-predictor.git
 cd stock-price-predictor
 
 # Create virtual environment
