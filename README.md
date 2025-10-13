@@ -224,11 +224,6 @@ Contributions are welcome! Please:
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
 
-## 👤 Author
-
-**Your Name**
-- GitHub: [@riveramatthew](https://github.com/yourusername)
-
 ## 🙏 Acknowledgments
 
 - Yahoo Finance for providing free historical data
