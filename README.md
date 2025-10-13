@@ -40,41 +40,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Basic Usage
-
-```python
-from src.data_collector import StockDataCollector
-from src.stock_predictor import StockPredictor
-
-# 1. Collect Data
-collector = StockDataCollector()
-data = collector.download_stock_data(
-    tickers=['AAPL', 'GOOGL', 'MSFT'],
-    start_date='2020-01-01',
-    end_date='2024-10-01'
-)
-
-# 2. Add Technical Indicators
-for ticker in ['AAPL', 'GOOGL', 'MSFT']:
-    data = collector.add_technical_indicators(data, ticker)
-
-# 3. Train Model
-predictor = StockPredictor(model_type='random_forest')
-predictor.train(data[:training_end_date], tickers=['AAPL', 'GOOGL', 'MSFT'])
-
-# 4. Make Predictions
-predictions = predictor.predict(
-    data,
-    tickers=['AAPL'],
-    dates=['2024-10-01', '2024-10-08', '2024-10-15']
-)
-
-# 5. Evaluate
-metrics = predictor.evaluate(actual_prices, predictions['AAPL'])
-print(f"RMSE: {metrics['RMSE']:.2f}")
-print(f"MAPE: {metrics['MAPE']:.2f}%")
-```
-
 ## 🧪 Methodology
 
 ### 1. Data Collection
